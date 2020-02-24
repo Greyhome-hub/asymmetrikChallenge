@@ -12,7 +12,7 @@ public class BusinessCardReaderDriver {
 		NameFinder nf = new NameFinder();
 		EmailFinder ef = new EmailFinder();
 		ArrayList<String> cardArray= new ArrayList<>(); 
-		cardArray = cfr.readTxtFile("card1.txt");
+		cardArray = cfr.readTxtFile("card.txt");
 
 		String name = nf.nameFinder(cardArray);
 		System.out.println("Name: " + name);
