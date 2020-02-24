@@ -18,4 +18,4 @@ The name, phone number, and email address will then be displayed.
 
 To build the jar copy the contents of the bin folder to a directory.
 
-Enter the following command in your console in that directory: jar cfm application.jar Manifest.txt main META-INF opennlp resources
+Enter the following command in your console in that directory: jar cfm BusinessCardReader.jar Manifest.txt main META-INF opennlp resources
